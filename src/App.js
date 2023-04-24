@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Navbar/>
+      <div className='het'>sdfasf</div>
       <Footer/>
   
     </div>
