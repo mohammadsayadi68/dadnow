@@ -58,7 +58,11 @@ const Footer = () => {
                     <li className="footer-left-item">تهران-ناهید شرقی</li>
                     <li className="footer-left-item">0215468</li>
                     <li className="footer-left-item">POD@GMAIL.COM</li>
-                    <li className="footer-left-item">شبکه های احتماعی</li>
+                    <li className="footer-left-item">
+                    <i className="icon-telegram"/>
+                    <i className="demo-icon icon-linkedin"/>
+                    <i className="icon-instagram"/>
+                    </li>
                   </ul>
                 </div>
               </div>

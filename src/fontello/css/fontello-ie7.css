@@ -65,6 +65,8 @@
 .icon-balance-scale { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x5b;&nbsp;'); }
 .icon-calendar-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x5c;&nbsp;'); }
 .icon-camera-outline { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe037;&nbsp;'); }
+.icon-linkedin-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe0de;&nbsp;'); }
+.icon-linkedin-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe0df;&nbsp;'); }
 .icon-user-add-outline { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
 .icon-users-2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
 .icon-user-add-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
@@ -169,6 +171,8 @@
 .icon-lock-open-4 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeb4c;&nbsp;'); }
 .icon-lock-open-alt-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeb4d;&nbsp;'); }
 .icon-logout-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02d;&nbsp;'); }
+.icon-linkedin-circled-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05b;&nbsp;'); }
+.icon-linkedin { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e1;&nbsp;'); }
 .icon-comment-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e5;&nbsp;'); }
 .icon-download-cloud { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ed;&nbsp;'); }
 .icon-doc-text { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f6;&nbsp;'); }
@@ -178,5 +182,6 @@
 .icon-sort-alt-up { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf160;&nbsp;'); }
 .icon-sort-alt-down { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf161;&nbsp;'); }
 .icon-user-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2c0;&nbsp;'); }
+.icon-linkedin-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf30c;&nbsp;'); }
 .icon-camera-2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf4f7;&nbsp;'); }
 .icon-floppy { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f4be;&nbsp;'); }

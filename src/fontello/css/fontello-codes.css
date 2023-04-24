@@ -55,6 +55,8 @@
 .icon-balance-scale:before { content: '\5b'; } /* '[' */
 .icon-calendar-empty:before { content: '\5c'; } /* '\' */
 .icon-camera-outline:before { content: '\e037'; } /* '' */
+.icon-linkedin-circled:before { content: '\e0de'; } /* '' */
+.icon-linkedin-1:before { content: '\e0df'; } /* '' */
 .icon-user-add-outline:before { content: '\e800'; } /* '' */
 .icon-users-2:before { content: '\e801'; } /* '' */
 .icon-user-add-1:before { content: '\e802'; } /* '' */
@@ -159,6 +161,8 @@
 .icon-lock-open-4:before { content: '\eb4c'; } /* '' */
 .icon-lock-open-alt-1:before { content: '\eb4d'; } /* '' */
 .icon-logout-1:before { content: '\f02d'; } /* '' */
+.icon-linkedin-circled-1:before { content: '\f05b'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-comment-empty:before { content: '\f0e5'; } /* '' */
 .icon-download-cloud:before { content: '\f0ed'; } /* '' */
 .icon-doc-text:before { content: '\f0f6'; } /* '' */
@@ -168,5 +172,6 @@
 .icon-sort-alt-up:before { content: '\f160'; } /* '' */
 .icon-sort-alt-down:before { content: '\f161'; } /* '' */
 .icon-user-o:before { content: '\f2c0'; } /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; } /* '' */
 .icon-camera-2:before { content: '\f4f7'; } /* '' */
 .icon-floppy:before { content: '💾'; } /* '\1f4be' */

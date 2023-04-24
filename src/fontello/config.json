@@ -2369,6 +2369,36 @@
       "search": [
         "user"
       ]
+    },
+    {
+      "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
+      "css": "linkedin",
+      "code": 61665,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1145676a91138011729fa2909997af66",
+      "css": "linkedin-squared",
+      "code": 62220,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "25a30265650b260ef03df4cbbff80272",
+      "css": "linkedin-1",
+      "code": 57567,
+      "src": "typicons"
+    },
+    {
+      "uid": "b2178b8fca35bac9e4bfcea4a4c05a92",
+      "css": "linkedin-circled",
+      "code": 57566,
+      "src": "typicons"
+    },
+    {
+      "uid": "d0c177a8e1688175c3445cc6b25bcc90",
+      "css": "linkedin-circled-1",
+      "code": 61531,
+      "src": "mfglabs"
     }
   ]
 }
