@@ -4,6 +4,9 @@ import footerDote from "../../public/image/footer-dote-group.svg";
 import triangleVector from "../../public/image/triangle-vector.svg";
 import circle from "../../public/image/circle-yelow.svg";
 import logo from "../../public/image/Podilaw-mag-dark.svg";
+import location from "../../public/image/vector-location.svg";
+import call from "../../public/image/vector-call.svg";
+import arrow from "../../public/image/vector-arrow.svg";
 const Footer = () => {
   return (
     <div className="footer">
@@ -54,14 +57,23 @@ const Footer = () => {
                 </div>
                 <div className="col-6 footer-left">
                   <ul>
-                    <li className=" footer-left-titre"> <i className="fa fa-user"></i> راه های ارتباطی</li>
-                    <li className="footer-left-item">تهران-ناهید شرقی</li>
-                    <li className="footer-left-item">0215468</li>
-                    <li className="footer-left-item">POD@GMAIL.COM</li>
-                    <li className="footer-left-item">
-                    <i className="icon-telegram"/>
-                    <i className="demo-icon icon-linkedin"/>
-                    <i className="icon-instagram"/>
+                    <li className=" footer-left-titre">
+                      {" "}
+                      <i className="fa fa-user"></i> راه های ارتباطی
+                    </li>
+                    <li className="footer-left-item"><img src={location} alt="" className="" />  تهران-ناهید شرقی</li>
+                    <li className="footer-left-item"><img src={call} alt=""  className=""/> 0215468</li>
+                    <li className="footer-left-item"><img src={arrow} alt="" className="" />POD@GMAIL.COM</li>
+                    <li className="footer-left-item d-flex">
+                      <div className="icon">
+                        <i className="icon-telegram" />
+                      </div>
+                      <div className="mx-3">
+                        <i className="icon-instagram" />
+                      </div>
+                      <div className="">
+                        <i className="demo-icon icon-linkedin" />
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -74,7 +86,7 @@ const Footer = () => {
       <img src={footerDote} className="footer-dote" alt="" />
       <img src={triangleVector} className="footer-dote triang" alt="" />
       <div className="circle">
-      <img src={circle} className="" alt="" />
+        <img src={circle} className="" alt="" />
       </div>
     </div>
   );
