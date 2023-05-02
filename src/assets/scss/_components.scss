@@ -6,3 +6,31 @@
 .w-100{
     width: 100%;
 }
+.mx-100{
+    margin:0 100px 0 100px;
+}
+.gray-title{
+    font-weight: 500;
+    font-size: 14px;
+    color: #888693;
+}
+.secod-title{
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+.icon-calendar-date{
+    font-size: 12px;
+    background: linear-gradient(180deg, #105363 0%, #27849A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.word-spacing-4{
+    word-spacing: 4px;
+}
+.absolute{
+    position: absolute;
+}
+
+
