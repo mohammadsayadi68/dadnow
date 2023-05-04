@@ -7,6 +7,8 @@ $gray:#394959;
     margin: 0;
     direction: rtl;
     font-family: IRANYekanX;
+	text-align: right;
+	direction: rtl;
 }
 li{
     list-style: none;
@@ -19,6 +21,7 @@ a{
     -webkit-font-feature-settings: "ss02";
     font-feature-settings: "ss02";
 }
+
 
 
 @font-face {

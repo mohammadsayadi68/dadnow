@@ -9,7 +9,6 @@ function App() {
     <div>
       <Navbar/>
       <Main/>
-      <div className='het'>sdfasf</div>
       <Footer/>
   
     </div>
