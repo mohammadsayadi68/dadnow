@@ -7,7 +7,7 @@ import triangleVector from "../../../public/image/triangle-vector.svg";
 import doteGroup from "../../../public/image/footer-dote-group.svg";
 
 
-const newNews = () => {
+const dadpro = () => {
   return (
     <div className="mx-100 dadpro mt-5">
       <div className="container-flouid">
@@ -117,4 +117,4 @@ const newNews = () => {
     </div>
   );
 };
-export default newNews;
+export default dadpro;
