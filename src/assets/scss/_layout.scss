@@ -87,7 +87,8 @@
     }
     .triang{
         bottom: 25px;
-        right: -6px;
+        // right: -6px;
+        right: 0;
     }
     &-body{
         z-index: 1;
@@ -235,9 +236,10 @@
         left: 0;
         margin-top: -415px;
         z-index: -1;
-        margin-left: -45px;
-      
+        overflow: hidden;
         img{
+        margin-left: -45px;
+        overflow: hidden;
             width: 100px;
 
         }
@@ -328,6 +330,7 @@
     .triangleVector{
         left: 0;
         position: absolute;
+        overflow: hidden;
         img{
             width: 100px;
             margin-left: -48px;
@@ -361,13 +364,14 @@
     }
     .circle{
         position: absolute;
-        width: 100%;
+        width: 90%;
         justify-content: space-evenly;
         z-index: -1;
         img{
             width: 92px;
-            margin-left: -95px;
-            margin-top: -95px;
+            // margin-left: -95px;
+            margin-left: -400px;
+            margin-top: -92px;
         }
     }
     .border-right{
