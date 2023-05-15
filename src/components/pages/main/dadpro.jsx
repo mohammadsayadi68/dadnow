@@ -9,7 +9,7 @@ import doteGroup from "../../../public/image/footer-dote-group.svg";
 
 const dadpro = () => {
   return (
-    <div className="mx-100 dadpro mt-5">
+    <div className="mx-100 dadpro">
       <div className="container-flouid">
       <div className="triangleVector">
           <img src={triangleVector} className="" alt="" />

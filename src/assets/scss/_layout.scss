@@ -302,6 +302,7 @@
     }
 }
 .dadpro{
+    margin-top: 141px !important;
     .img{
         // max-width: 586px;
         height: 696px;
@@ -467,5 +468,119 @@
         border-radius: 8px;
         border: unset;
         text-align: center;
+    }
+ }
+ .action{
+    background-image: url(../../public/image/Rectangle-2.png);
+    height: 523px;
+    background-size: cover;
+    margin-top: 87px;
+    margin-top: 68px;
+padding-top: 68px;
+    
+    .titre{
+        font-weight: 700;
+        font-size: 24px;
+        color: #4F4F4F;
+        .border-right{
+            display: inline-block;
+            width: 5px;
+            height: 40px;
+            background-image: linear-gradient(180deg, #EA467D 0%, #9B0D3D 100%);
+
+            border-radius: 12px;
+        }
+    }
+
+
+    .border-right{
+        background-image: linear-gradient(135deg, #FBDA61 2.88%, #F76B1C 98.13%) !important;
+     }
+    .header{
+        &-right{
+            color: white;
+        }
+        &-left{
+            color: white;
+        }
+    }
+    .list{
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-top: 42px;
+        .item2{
+            margin: 0 80px 0 80px;
+        }
+        .active{
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+    .circle{
+        position: absolute;
+        left: 0;
+        overflow: hidden;
+        img{
+            width: 112px;
+            margin-left: -70px;
+        }
+    }
+    .action-card{
+        // flex-wrap: nowrap;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: start;
+        // justify-content: unset;
+        height: 347px;
+        // background-color: red;
+        margin-top: 70px;
+        margin-bottom: -51px;
+        padding-right: 78px;
+        padding-top: 38px;
+        scrollbar-width: none;  
+    }
+    &-body{
+    // margin-top: 108px;
+        width: 671px;
+        height: 289px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(215, 228, 249, 0.4);
+        border-radius: 20px;
+        .card-img{
+            margin-right: -27px;
+            margin-top: -38px;
+            width: 336px;
+            height: 248px;
+        }
+        &-desc{
+            padding: 30px 18px 30px 30px;
+            .titre{
+                font-weight: 600;
+                font-size: 20px;
+                color: #27849A;
+            }
+            .date{
+                margin-top: 20px;
+            }
+            .time{
+                margin-top: 18px;
+            }
+            .place{
+                margin-top: 14px;
+
+            }
+            img{
+                margin-left: 8px;
+            }
+            .price{
+                width: 329px;
+                height: 54px;
+                background: #F0FBFF;
+                border-radius: 16px;margin-top: 21px;
+                padding: 8px 22px;
+                margin-right: -18px;
+            }
+        }
+       
     }
  }
