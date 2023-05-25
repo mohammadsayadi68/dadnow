@@ -9,6 +9,9 @@
 .mx-100{
     margin:0 100px 0 100px;
 }
+.px-100{
+    padding:0 100px 0 100px;
+}
 .gray-title{
     font-weight: 500;
     font-size: 14px;
@@ -32,6 +35,9 @@
 .absolute{
     position: absolute;
 }
+.relative{
+    position: relative;
+}
 
 .p-30{
     padding: 30px;
@@ -48,6 +54,9 @@
 
         border-radius: 12px;
     }
+    .border-right-orange{
+        background-image: linear-gradient(135deg, #FBDA61 2.88%, #F76B1C 98.13%) !important;
+     }
 }
 .card-title {
     font-weight: 700;

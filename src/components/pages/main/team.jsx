@@ -95,9 +95,9 @@ const team = () => {
             </div>
           </div>
         </div>
-        <div class="circle center">
-          <img class="" alt="" />
-          <img src={circle} class="" alt="" />
+        <div className="circle center">
+          <img className="" alt="" />
+          <img src={circle} className="" alt="" />
         </div>
       </div>
     </div>

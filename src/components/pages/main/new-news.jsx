@@ -10,7 +10,7 @@ const newNews = () => {
     <div className="mx-100 new-news">
       <div className="container-flouid">
         <div className="row justify-content-center">
-          <div className="col-12 d-flex justify-content-between align-items-center mb-4 pb-3">
+          <div className="col-12 d-flex justify-content-between align-items-center mb-4 pb-3 ">
             <div className="absolute news-dote-group">
               <img src={doteGroup} className="" alt="" />
             </div>
@@ -124,8 +124,8 @@ const newNews = () => {
         <div className="triangleVector">
           <img src={triangleVector} className="" alt="" />
         </div>
-        <div class="circle">
-          <img src={circle} class="" alt="" />
+        <div className="circle">
+          <img src={circle} className="" alt="" />
         </div>
       </div>
     </div>

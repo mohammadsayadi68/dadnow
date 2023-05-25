@@ -14,8 +14,8 @@ const dadpro = () => {
       <div className="triangleVector">
           <img src={triangleVector} className="" alt="" />
         </div>
-        <div class="circle">
-          <img src={circle} class="" alt="" />
+        <div className="circle">
+          <img src={circle} className="" alt="" />
         </div>
         <div className=" dote-group">
               <img src={doteGroup} className="" alt="" />
