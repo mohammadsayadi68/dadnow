@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, Link } from "react-router-dom";
 // import logo from "../../public/image/podilaw-mag.svg";
 import logo from "../../public/image/Podilaw-mag-dark.svg";
 import searchIcon from "../../public/image/search-normal.svg";
@@ -13,9 +14,10 @@ const Navbar = () => {
       <div className="navbar-menubar">
         <ul className="d-flex nav">
           <li className="nav-item">
-            <a href="" className="nav-item-link">
+            <NavLink className="nav-item-link" activeClassName='active' to="/">
+            {/* <i className="demo-icon icon-home" /> */}
               صفحه اصلی
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
             <a href="" className="nav-item-link">
@@ -30,10 +32,9 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="" className="nav-item-link">
-              {" "}
-              اخبار چندرسانه ای
-            </a>
+            <NavLink className="nav-item-link" activeClassName='active' to="/multy-media">
+            اخبار چندرسانه ای
+            </NavLink>
           </li>
           <li className="nav-item">
             <a href="" className="nav-item-link">

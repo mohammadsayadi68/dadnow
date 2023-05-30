@@ -7,7 +7,7 @@ import doteGroup from "../../../public/image/footer-dote-group.svg";
 
 const newNews = () => {
   return (
-    <div className="mx-100 new-news">
+    <div className="mx-100 new-news mt-5">
       <div className="container-flouid">
         <div className="row justify-content-center">
           <div className="col-12 d-flex justify-content-between align-items-center mb-4 pb-3 ">
