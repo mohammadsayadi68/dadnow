@@ -57,6 +57,9 @@
     .border-right-orange{
         background-image: linear-gradient(135deg, #FBDA61 2.88%, #F76B1C 98.13%) !important;
      }
+     .border-right-blue{
+        background-image: linear-gradient(88.84deg, #6BE1BA 0%, #6E54EF 100%) !important;
+     }
 }
 .card-title {
     font-weight: 700;
@@ -76,5 +79,15 @@
     text-align: right;
     color: #4F4F4F;
 }
+.f-14{
+    font-size: 14px;
+}
+.f-16{
+    font-size: 16px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+   
 
 

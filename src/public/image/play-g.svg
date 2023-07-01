@@ -1,0 +1,15 @@
+<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/play">
+<g id="vuesax/linear/play_2">
+<g id="play">
+<path id="Vector" d="M0.212891 8.29469V5.09003C0.212891 1.11122 2.98155 -0.518115 6.36939 1.47129L9.10267 3.07362L11.8359 4.67595C15.2238 6.66536 15.2238 9.92402 11.8359 11.9134L9.10267 13.5158L6.36939 15.1181C2.98155 17.1075 0.212891 15.4782 0.212891 11.4993V8.29469Z" fill="url(#paint0_linear_264_17697)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_264_17697" x1="7.29486" y1="0.622559" x2="7.29486" y2="15.9668" gradientUnits="userSpaceOnUse">
+<stop stop-color="#105363"/>
+<stop offset="1" stop-color="#27849A"/>
+</linearGradient>
+</defs>
+</svg>
