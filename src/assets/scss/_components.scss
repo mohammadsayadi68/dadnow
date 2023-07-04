@@ -79,6 +79,9 @@
     text-align: right;
     color: #4F4F4F;
 }
+.f-12{
+    font-size: 12px;
+}
 .f-14{
     font-size: 14px;
 }
@@ -88,6 +91,13 @@
 .mt-50{
     margin-top: 50px;
 }
-   
+   .gradient-text{
+    background: linear-gradient(180deg, #105363 0%, #27849A 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   }
+   .pointer{
+    cursor: pointer;
+   }
 
 

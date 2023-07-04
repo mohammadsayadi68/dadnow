@@ -63,6 +63,27 @@
                 height: 24px;
             }
         }
+        .nav-avatar{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .dropdown-menu{
+            margin-right: -30px;
+            margin-top: 10px;
+            padding: 0px;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #F9F3FF;
+            background: #FFF;
+            box-shadow: 0px 4px 15px 0px rgba(215, 228, 249, 0.40);
+            .dropdown-item{
+                color:  #747373;
+                font-size: 14px;
+                font-weight: 500;
+                margin: 0;padding: 0;
+            }
+        }
     }
 
 }
