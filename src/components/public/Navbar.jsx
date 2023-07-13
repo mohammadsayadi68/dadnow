@@ -9,7 +9,7 @@ import edit from "../../public/image/user-edit.svg";
 import logout from "../../public/image/logout.svg";
 
 const Navbar = () => {
-  document.body.addEventListener('click', console.log('dropdown') );
+  // document.body.addEventListener('click', console.log('dropdown') );
   const user = null;
   const [dropdown, setDropdown] = useState(false);
   const toggleOpen = () => setDropdown(!dropdown);
@@ -36,10 +36,10 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="" className="nav-item-link">
+            <NavLink to="/news" className="nav-item-link">
               {" "}
-              گزارش ها
-            </a>
+           شرح خبر
+            </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
