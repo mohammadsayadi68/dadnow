@@ -1,5 +1,5 @@
 import React from "react";
-import news from "../../../public/image/news-banner.png";
+// import bannerNews from "../../../public/image/news-banner.png";
 import triangle from "../../../public/image/triangle-vector.svg";
 import triangleYellow from "../../../public/image/triangle-yellow.svg";
 import circleBlue from "../../../public/image/circle-blue.svg";
@@ -11,11 +11,30 @@ import instagram from "../../../public/image/icons-instagram.svg";
 import shareLink from "../../../public/image/link-circle.svg";
 import NewNews from "../main/new-news";
 
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import axios from "axios";
+
 const News = () => {
+  const { id } = useParams();
+  const [news, setNews] = useState({});
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    async function getNews() {
+      const response = await axios.get(`http://localhost:8000/api/news/${id}`);
+      setTimeout(() => {
+        // console.log(response.data);
+        setNews(response.data.data);
+        setLoading(false);
+      }, 1000);
+    }
+    getNews();
+  }, []);
+
   return (
     <div className=" my-5 news">
       <div className="center">
-        <h1>تحلیلی بر وضعیت حقوقی شتاب هنده های ایرانی,تعداد,نوع وقراردادها</h1>
+        <h1>{news.title}</h1>
       </div>
       <div className=" w-100 banner">
         <div className="relative">
@@ -28,8 +47,8 @@ const News = () => {
             <img src={triangle} alt="" className=" " />
           </div>
         </div>
-        <div className="mx-100">
-          <img src={news} alt="" className="" />
+        <div className="mx-100 center">
+          <img src={news.cover} alt="" className="top-cover" />
         </div>
         <div className="relative">
           <div className="absolute circleBlue">
@@ -43,12 +62,18 @@ const News = () => {
       <div className="mx-100 d-flex align-items-center user">
         <img src={userIcon} alt="" className="card-avatar" />
         <div className="">
-          <span className="mx-2 name">لیدا بابایی</span>
+          <span className="mx-2 name">
+            {
+              news.user.name
+              
+              
+            }
+          </span>
           <div className="d-flex mt-3">
             <div>
               <i className="demo-icon icon-calendar-2 icon-calendar-date f-16 mx-2" />
               <span className="farsi-number secod-title word-spacing-4">
-                20 آذر 1401
+                {new Date(news.created_at).toLocaleDateString("fa-IR")}
               </span>
             </div>
             <div className="mx-4">
@@ -60,19 +85,16 @@ const News = () => {
           </div>
         </div>
       </div>
-      <div className="mx-100 d-flex">
+      <div className="mx-100 d-flex mb-100">
         <div className="body">
           <div className="d-flex">
             <div className="border-right-titre"></div>
             <div className="">
-              <h2 className="min-desc">
-                شکل‌گیری شتاب‌دهنده‌های ایرانی سیر متفاوتی نسبت به
-                شتاب‌دهنده‌های خارجی دارد. این امر از یک سو در قراردادهای
-                شتاب‌دهی در شتاب‌دهنده‌های ایرانی اثر گذاشته و از سوی دیگر باعث
-                تفاوت در نوع و قالب آن‌ها شده است.در این نوشتار به بررسی سایر
-                وضعیت حقوقی شتاب‌دهنده‌های ایرانی می‌پردازیم.
-              </h2>
+              <h2 className="min-desc">{news.title}</h2>
             </div>
+          </div>
+          <div className="mt-50 pl-20">
+            <div dangerouslySetInnerHTML={{ __html: news.description }} />
           </div>
         </div>
         <div className="">
@@ -88,9 +110,8 @@ const News = () => {
             </div>
           </div>
         </div>
-
       </div>
-        <NewNews />
+      <NewNews />
     </div>
   );
 };

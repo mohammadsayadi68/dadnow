@@ -16,7 +16,7 @@ function App() {
       {/* <Main/> */}
       <Routes>
       <Route path='/multy-media' element={<Media/>}/>
-      <Route path='/news' element={<News/>}/>
+      <Route path='/news/:id' element={<News/>}/>
       <Route path='/' element={<Main/>}/>
 
       </Routes>

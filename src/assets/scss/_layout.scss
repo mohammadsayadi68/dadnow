@@ -278,6 +278,9 @@
             border: 0.2px solid #E8E6EA;
             box-shadow: 0px 4px 15px rgba(215, 228, 249, 0.4);
             border-radius: 8px;
+            &-img-top{
+                height: 284px;
+            }
             &-mark{
                 background: rgba(12, 17, 31, 0.34);
                 box-shadow: inset 7px 0px 20px rgba(255, 255, 255, 0.15);
@@ -299,6 +302,7 @@
                     font-weight: 700;
                     font-size: 20px;
                     color: #27849A;
+                    height: 55px;
     
                 }
                 img{
@@ -876,6 +880,9 @@ padding-top: 68px;
     .banner{
         margin-top: 40px;
         margin-bottom: 30px;
+        .top-cover{
+width: 85%;
+        }
         .triangleYellow{
             width: 30px;
             top: 60px;
@@ -953,7 +960,7 @@ padding-top: 68px;
     width: 52px;
     height: 100px;
     position: sticky;
-    top: 0;
+    top: 15px;
     &-icon{
         width: 52px;
         height: 52px;
