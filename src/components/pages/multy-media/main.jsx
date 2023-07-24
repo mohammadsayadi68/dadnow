@@ -36,7 +36,7 @@ const Main = () => {
                   className={"link " + (selected == "live" ? " active" : "")}
                   onClick={() => active("live")}
                 >
-                  <img src={Monitor} className="mx-3" />
+                  <img src={Monitor} className="mx-1 mx-md-3" />
                   پخش زنده
                 </div>
                 <div
@@ -45,14 +45,14 @@ const Main = () => {
                   }
                   onClick={() => active("podcast")}
                 >
-                  <img src={Mic} className="mx-3" />
+                  <img src={Mic} className="mx-1 mx-md-3" />
                   پادکست
                 </div>
                 <div
                   className={"link " + (selected == "video" ? " active" : "")}
                   onClick={() => active("video")}
                 >
-                  <img src={Vplay} className="mx-3" />
+                  <img src={Vplay} className="mx-1 mx-md-3" />
                   ویدیو
                 </div>
               </div>

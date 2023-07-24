@@ -16,7 +16,7 @@ const News = () => {
   const regex = /(<([^>]+)>)/gi;
   useEffect(() => {
     async function getData() {
-      const response = await axios.get("http://localhost:8000/api/news");
+      const response = await axios.get("https://admin.mardomnema.ir/api/news");
 
       setTimeout(() => {
         setItem(response.data.data);
@@ -48,9 +48,9 @@ const News = () => {
             {isLoading ? (
           <LoadingAllNews />
         ) : (
-            items.map((item) => {
+            items.map((item,index) => {
               return (
-                <div className="col-md-4 news" key={item.id}>
+                <div className="col-lg-4 news" key={index}>
                   <div className="card">
                     <Link to={`/news/${item.id}`}>
                       <img src={item.cover} className="card-img-top" alt="" />

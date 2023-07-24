@@ -60,12 +60,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
             <div className="items d-flex  justify-content-between align-items-center">
@@ -80,12 +84,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
             <div className="items d-flex  justify-content-between align-items-center">
@@ -100,12 +108,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
             <div className="items d-flex  justify-content-between align-items-center">
@@ -120,12 +132,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
           </div>
@@ -180,12 +196,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
             <div className="items d-flex  justify-content-between align-items-center">
@@ -200,12 +220,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
             <div className="items d-flex  justify-content-between align-items-center">
@@ -220,12 +244,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
             <div className="items d-flex  justify-content-between align-items-center">
@@ -240,12 +268,16 @@ const Podcast = () => {
                   <div className="sub-titre farsi-number my-1">قسمت 19</div>
                 </div>
               </div>
-              <div className="d-flex align-items-center word-spacing-4 farsi-number px-3">
-                <img src={clock} alt="" className="mx-2 clock" />
-                <span className="f-14"> 4 دقیقه</span>
+              <div className="d-flex flex-column flex-sm-row align-items-center word-spacing-4 farsi-number px-3">
+                <div className="">
+                  <img src={clock} alt="" className="mx-2 clock" />
+                  <span className="f-14"> 5 دقیقه</span>
+                </div>
                 <div className="wall"></div>
-                <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
-                <span className="f-14">20 آذز 1401</span>
+                <div className="">
+                  <i class="demo-icon icon-calendar-2 icon-calendar-date mx-2"></i>
+                  <span className="f-14">20 آذز 1401</span>
+                </div>
               </div>
             </div>
           </div>

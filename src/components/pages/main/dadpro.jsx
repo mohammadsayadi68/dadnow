@@ -32,7 +32,7 @@ const dadpro = () => {
             </div>
           </div>
 
-          <div className="col-md-6  d-flex flex-column justify-content-center align-items-center">
+          <div className="col-lg-6  d-flex flex-column justify-content-center align-items-center">
             <img src={testImg} className="w-100 img" alt="" />
             <div className="dadpro-card w-80 p-30">
               <div className="card-title">
@@ -57,7 +57,7 @@ const dadpro = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6  d-flex flex-column justify-content-center align-items-center">
+          <div className="col-lg-6  d-flex flex-column justify-content-center align-items-center">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <img src={testImg} className="w-100 img img-left" alt="" />
               <div className="dadpro-card p-30">

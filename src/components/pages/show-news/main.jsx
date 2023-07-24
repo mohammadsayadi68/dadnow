@@ -22,7 +22,7 @@ const News = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     async function getNews() {
-      const response = await axios.get(`http://localhost:8000/api/news/${id}`);
+      const response = await axios.get(`https://admin.mardomnema.ir/api/news/${id}`);
       setTimeout(() => {
         // console.log(response.data);
         setNews(response.data.data);

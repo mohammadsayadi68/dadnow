@@ -1,12 +1,12 @@
 import React from "react";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-const LoadingUsers = () => {
-  return Array(6)
+const LoadingNews = () => {
+  return Array(3)
     .fill({})
-    .map(() => {
+    .map((item,index) => {
       return (
-        <div className="col-4">
+        <div className="col-md-4" key={index}>
           <div className="card mt-4" >
           {/* style={{ width: "18rem" }} */}
             <Skeleton   style={{
@@ -21,4 +21,4 @@ const LoadingUsers = () => {
     });
 };
 
-export default LoadingUsers;
+export default LoadingNews ;

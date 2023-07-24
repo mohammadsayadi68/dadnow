@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footer-body w-100 ">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="footer-body-desc">
                 <div className="triangleVector">
                   <img src={triangleVector} className="" alt="" />
@@ -36,9 +36,9 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6 mt-2">
+            <div className="col-lg-6 mt-2">
               <div className="row ">
-                <div className="col-6 footer-left ">
+                <div className="col-6 footer-left  m-0 m-md-auto">
                   <ul>
                     <li className=" footer-left-titre">لینک های مفید</li>
                     <li className="">
@@ -55,7 +55,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-6 footer-left">
+                <div className="col-6 footer-left m-0 m-md-auto">
                   <ul>
                     <li className=" footer-left-titre">
                       {" "}

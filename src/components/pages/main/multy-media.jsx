@@ -13,15 +13,12 @@ const media = () => {
           <img src={triangleVector} className="" alt="" />
         </div>
       <div className="px-100">
-        {/* <div class="circle">
-          <img src={circle} class="" alt="" />
-        </div> */}
         <div className=" dote-group absolute">
           <img src={doteGroup} className="" alt="" />
         </div>
         <div className="container-flouid">
           <div className="row">
-            <div className="col-12 d-flex justify-content-between align-items-center mb-4 pb-3">
+            <div className="col-12 d-flex justify-content-between align-items-center mb-4 pb-3 z-index-1">
               <div className=" section-titre d-flex aligin-items-center mt-4">
                 <div className="border-right border-right-orange"></div>
                 <div className="mx-2">چند رسانه ای</div>
@@ -32,7 +29,7 @@ const media = () => {
               </div>
             </div>
 
-            <div className="col-md-6  d-flex flex-column justify-content-center align-items-center  ">
+            <div className="col-md-6 mt-5 mt-md-0  d-flex flex-column justify-content-center align-items-center  ">
               <div className="relative w-100">
                 <img src={testImg} className=" img-big" alt="" />
                 <div className=" img-desc">
@@ -42,7 +39,7 @@ const media = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6  d-flex flex-column justify-content-center align-items-center">
+            <div className="col-md-6 mt-5 mt-md-0  d-flex flex-column justify-content-center align-items-center">
               <div className="d-flex flex-column justify-content-center align-items-center">
                 <div className="relative w-100">
                   <img src={medyatopleft} className=" img left-img" alt="" />

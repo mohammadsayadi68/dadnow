@@ -21,8 +21,8 @@ const team = () => {
           </div>
         </div>
 
-        <div className="row d-flex justify-content-between">
-          <div className="col-md-3">
+        <div className="row d-flex justify-content-center justify-content-lg-between">
+          <div className="col-md-3 mx-3 mx-lg-0">
             <div className="center flex-column">
               <div className="center flex-column team-card">
                 <img src={userImg} className="team-card-img" alt="" />
@@ -40,7 +40,7 @@ const team = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 mx-3 mx-lg-0">
             <div className="center flex-column">
               <div className="center flex-column team-card">
                 <img src={userImg} className="team-card-img" alt="" />
@@ -58,7 +58,7 @@ const team = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 mx-3 mx-lg-0">
             <div className="center flex-column">
               <div className="center flex-column team-card">
                 <img src={userImg} className="team-card-img" alt="" />
@@ -76,7 +76,7 @@ const team = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 mx-3 mx-lg-0">
             <div className="center flex-column">
               <div className="center flex-column team-card">
                 <img src={userImg} className="team-card-img" alt="" />

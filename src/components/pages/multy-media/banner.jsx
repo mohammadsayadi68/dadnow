@@ -13,7 +13,7 @@ const banner = () => {
           <div className="mx-2"> چندرسانه‌ای </div>
         </div>
       </div>
-      <div className="col-12 banner d-flex justify-content-start align-items-center">
+      <div className="col-12 banner d-flex justify-content-center justify-content-md-start align-items-center">
         <img src={player} className="big-player" alt="" />
         <div className="desc">
           <div className="d-flex  justify-content-start align-items-center">
@@ -28,7 +28,7 @@ const banner = () => {
           <div className="d-flex  justify-content-between align-items-end">
             <div className="d-flex align-items-center">
               <img src={clock} alt="" className="clock" />
-              <div className="mx-2">زمان پادکست : 4 دقیقه</div>
+              <div className="mx-2 card-sub-title">زمان پادکست : 4 دقیقه</div>
             </div>
             <div className="play-btn d-flex  justify-content-center align-items-center">
               <img src={play} alt="" />

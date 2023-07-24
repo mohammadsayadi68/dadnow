@@ -1,7 +1,7 @@
 import React from "react";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-const LoadingUsers = () => {
+const LoadingNews = () => {
   return Array(1)
     .fill({})
     .map(() => {
@@ -27,4 +27,4 @@ const LoadingUsers = () => {
     });
 };
 
-export default LoadingUsers;
+export default LoadingNews;
